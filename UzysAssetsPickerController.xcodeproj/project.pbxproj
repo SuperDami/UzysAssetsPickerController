@@ -34,8 +34,6 @@
 		95F443C218AC62D10088FC13 /* UzysGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F443C118AC62D10088FC13 /* UzysGroupViewCell.m */; };
 		CCE0A1C519AC197F00A5BE3A /* UIImage+UzysExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE0A1C419AC197F00A5BE3A /* UIImage+UzysExtension.m */; };
 		CCE0A1C819AC1F0200A5BE3A /* UzysAppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE0A1C719AC1F0200A5BE3A /* UzysAppearanceConfig.m */; };
-		D1DF9A8C1B0ADD8A00D108A4 /* SourceHanSansCN-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1DF9A8A1B0ADD8A00D108A4 /* SourceHanSansCN-Medium.otf */; };
-		D1DF9A8D1B0ADD8A00D108A4 /* SourceHanSansCN-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1DF9A8B1B0ADD8A00D108A4 /* SourceHanSansCN-Normal.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,8 +87,6 @@
 		CCE0A1C419AC197F00A5BE3A /* UIImage+UzysExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UzysExtension.m"; sourceTree = "<group>"; };
 		CCE0A1C619AC1F0200A5BE3A /* UzysAppearanceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = UzysAppearanceConfig.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		CCE0A1C719AC1F0200A5BE3A /* UzysAppearanceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = UzysAppearanceConfig.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		D1DF9A8A1B0ADD8A00D108A4 /* SourceHanSansCN-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansCN-Medium.otf"; sourceTree = "<group>"; };
-		D1DF9A8B1B0ADD8A00D108A4 /* SourceHanSansCN-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSansCN-Normal.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +168,6 @@
 		95F4436518AB4AEF0088FC13 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D1DF9A8A1B0ADD8A00D108A4 /* SourceHanSansCN-Medium.otf */,
-				D1DF9A8B1B0ADD8A00D108A4 /* SourceHanSansCN-Normal.otf */,
 				95F4436618AB4AEF0088FC13 /* UzysAssetsPickerController-Info.plist */,
 				95F4436718AB4AEF0088FC13 /* InfoPlist.strings */,
 				95F4436A18AB4AEF0088FC13 /* main.m */,
@@ -303,10 +297,8 @@
 			files = (
 				95F4437718AB4AEF0088FC13 /* Images.xcassets in Resources */,
 				95F4436918AB4AEF0088FC13 /* InfoPlist.strings in Resources */,
-				D1DF9A8C1B0ADD8A00D108A4 /* SourceHanSansCN-Medium.otf in Resources */,
 				95F4437218AB4AEF0088FC13 /* Main.storyboard in Resources */,
 				953E13B719A2CAE30012B4D9 /* UzysAssetPickerController.bundle in Resources */,
-				D1DF9A8D1B0ADD8A00D108A4 /* SourceHanSansCN-Normal.otf in Resources */,
 				95F4439818AB4BBA0088FC13 /* UzysAssetsPickerController.xib in Resources */,
 				95080AE419CC508900E69F29 /* Launch Screen.xib in Resources */,
 			);

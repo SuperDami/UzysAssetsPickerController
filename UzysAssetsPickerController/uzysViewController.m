@@ -87,9 +87,6 @@
     appearanceConfig.assetsGroupSelectedImageName = @"checker.png";
     [UzysAssetsPickerController setUpAppearanceConfig:appearanceConfig];
 #endif
-    [UzysAppearanceConfig sharedConfig].fontRegularName = @"SourceHanSansCN-Normal";
-    [UzysAppearanceConfig sharedConfig].fontBoldName = @"SourceHanSansCN-Medium";
-    
     UzysAssetsPickerController *picker = [[UzysAssetsPickerController alloc] init];
     picker.delegate = self;
     if([sender isEqual:self.btnImage])
