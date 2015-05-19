@@ -431,14 +431,14 @@
     UILabel *message        = [[UILabel alloc] initWithFrame:rect];
     
     title.text              = NSLocalizedStringFromTable(@"No Photos or Videos", @"UzysAssetsPickerController", nil);
-    title.font              = [UIFont systemFontOfSize:19.0];
+    title.font              = [[UzysAppearanceConfig sharedConfig] fontRegularSize:19.0];
     title.textColor         = [UIColor colorWithRed:153.0/255.0 green:153.0/255.0 blue:153.0/255.0 alpha:1];
     title.textAlignment     = NSTextAlignmentCenter;
     title.numberOfLines     = 5;
     title.tag               = kTagNoAssetViewTitleLabel;
     
     message.text            = NSLocalizedStringFromTable(@"You can sync photos and videos onto your iPhone using iTunes.", @"UzysAssetsPickerController",nil);
-    message.font            = [UIFont systemFontOfSize:15.0];
+    message.font            = [[UzysAppearanceConfig sharedConfig] fontRegularSize:14.0];
     message.textColor       = [UIColor colorWithRed:153.0/255.0 green:153.0/255.0 blue:153.0/255.0 alpha:1];
     message.textAlignment   = NSTextAlignmentCenter;
     message.numberOfLines   = 5;
@@ -476,13 +476,13 @@
     UILabel *message        = [[UILabel alloc] initWithFrame:rect];
     
     title.text              = NSLocalizedStringFromTable(@"This app does not have access to your photos or videos.", @"UzysAssetsPickerController",nil);
-    title.font              = [UIFont boldSystemFontOfSize:17.0];
+    title.font              = [[UzysAppearanceConfig sharedConfig] fontBoldSize:18.0];
     title.textColor         = [UIColor colorWithRed:129.0/255.0 green:136.0/255.0 blue:148.0/255.0 alpha:1];
     title.textAlignment     = NSTextAlignmentCenter;
     title.numberOfLines     = 5;
     
     message.text            = NSLocalizedStringFromTable(@"You can enable access in Privacy Settings.", @"UzysAssetsPickerController",nil);
-    message.font            = [UIFont systemFontOfSize:14.0];
+    message.font            = [[UzysAppearanceConfig sharedConfig] fontRegularSize:14.0];
     message.textColor       = [UIColor colorWithRed:129.0/255.0 green:136.0/255.0 blue:148.0/255.0 alpha:1];
     message.textAlignment   = NSTextAlignmentCenter;
     message.numberOfLines   = 5;

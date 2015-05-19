@@ -17,6 +17,10 @@
 @property (nonatomic, strong) NSString *cameraImageName;
 @property (nonatomic, strong) NSString *closeImageName;
 @property (nonatomic, strong) UIColor *finishSelectionButtonColor;
+@property (nonatomic, strong) NSString *fontRegularName;
+@property (nonatomic, strong) NSString *fontBoldName;
 
 + (instancetype)sharedConfig;
+- (UIFont *)fontRegularSize:(CGFloat)size;
+- (UIFont *)fontBoldSize:(CGFloat)size;
 @end

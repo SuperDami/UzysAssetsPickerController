@@ -32,7 +32,7 @@ static CGFloat thumnailLength;
     UzysAppearanceConfig *appearanceConfig = [UzysAppearanceConfig sharedConfig];
 
     videoTitleColor      = [UIColor whiteColor];
-    videoTimeFont       = [UIFont systemFontOfSize:12];
+    videoTimeFont       = [[UzysAppearanceConfig sharedConfig] fontRegularSize:12.0];
     videoTimeHeight     = 20.0f;
     videoIcon       = [UIImage imageNamed:@"UzysAssetPickerController.bundle/uzysAP_ico_assets_video"];
     

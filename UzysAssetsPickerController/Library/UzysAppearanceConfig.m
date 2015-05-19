@@ -68,4 +68,17 @@
     return _finishSelectionButtonColor;
 }
 
+- (UIFont *)fontRegularSize:(CGFloat)size {
+    if (_fontRegularName) {
+        return [UIFont fontWithName:_fontRegularName size:size];
+    }
+    return [UIFont systemFontOfSize:size];
+}
+
+- (UIFont *)fontBoldSize:(CGFloat)size {
+    if (_fontBoldName) {
+        return [UIFont fontWithName:_fontBoldName size:size];
+    }
+    return [UIFont boldSystemFontOfSize:size];
+}
 @end

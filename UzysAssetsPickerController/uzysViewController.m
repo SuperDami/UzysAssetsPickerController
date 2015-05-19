@@ -24,7 +24,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [[UIButton appearance] setTintColor:[UIColor darkTextColor]];
-    [UIButton appearance].titleLabel.font = [UIFont systemFontOfSize:14];
+    [UIButton appearance].titleLabel.font = [[UzysAppearanceConfig sharedConfig] fontRegularSize:14.0];
     self.imageView = [[UIImageView alloc] initWithFrame:CGRectMake(60, 50, 200, 200)];
     self.imageView.contentMode = UIViewContentModeScaleAspectFit;
     self.imageView.backgroundColor = [UIColor lightGrayColor];
@@ -33,7 +33,7 @@
 
     self.labelDescription = [[UILabel alloc] initWithFrame:CGRectMake(60, 260, 200, 20)];
     self.labelDescription.textAlignment = NSTextAlignmentCenter;
-    self.labelDescription.font = [UIFont systemFontOfSize:12];
+    self.labelDescription.font = [[UzysAppearanceConfig sharedConfig] fontRegularSize:12.0];
     self.labelDescription.textColor = [UIColor lightGrayColor];
     [self.view addSubview:self.labelDescription];
     
