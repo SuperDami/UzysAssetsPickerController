@@ -817,6 +817,7 @@
 - (void)setTitle:(NSString *)title
 {
     [super setTitle:title];
+    self.btnTitle.titleLabel.font = [[UzysAppearanceConfig sharedConfig] fontBoldSize:16.0];
     [self.btnTitle setTitle:title forState:UIControlStateNormal];
     [self.btnTitle setImageEdgeInsets:UIEdgeInsetsMake(5, 0, 0, 0)];
     [self.btnTitle setTitleEdgeInsets:UIEdgeInsetsMake(5, 0, 0, 0)];
